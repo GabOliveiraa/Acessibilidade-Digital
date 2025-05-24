@@ -33,3 +33,16 @@ html, body {
         font-size: 2em;
     }
 }
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-type {
+    max-width: 55%;
+}
+
+.bg-type {
+    background-color: #fefbf9;
+}
