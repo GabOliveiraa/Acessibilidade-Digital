@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+#banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#banner .background-glass {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#banner .container {
+    height: 100%;
+}
+
+#banner h1 {
+    font-size: 5em;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    #banner {
+        height: 400px;
+    }
+    #banner h1 {
+        font-size: 2em;
+    }
+}
