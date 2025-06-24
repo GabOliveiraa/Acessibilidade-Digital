@@ -150,3 +150,15 @@ footer .text-body-secondary {
     color: #fff;
     
 }
+
+.btn {
+    background-color: #FC903F !important;
+    color: #01004D !important;
+    border: none;
+}
+
+.btn:hover, .btn:active {
+    background-color: #FC903F !important;
+    color: #01004D !important;
+    border: none;
+}
